@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Fuggles&family=Martian+Mono:wght@500&family=Sofia+Sans+Condensed:wght@1;100&display=swap");
+body {
+  background-image: url("https://images.unsplash.com/photo-1530177150700-84cd9a3b059b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8JUVEJTlBJThDJUVDJTgzJTg5JTIwJUVDJTgyJUFDJUVDJUE3JTg0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+  background-position: center;
+  background-size: cover;
+}
+
+.container-lg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
+  padding: 30px 30px;
+  font-family: "Croissant One", cursive;
+  white-space: nowrap;
+}
+
+.madeDate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  border-top: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(255, 255, 255);
+  margin: 0px 20px 0px 20px;
+  padding: 10px;
+  font-family: "Croissant One", cursive;
+  white-space: nowrap;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black;
+  padding-right: 20px;
+  transition: all 3s;
+}
+
+.row {
+  padding-top: 30px;
+}
+
+.title {
+  color: rgb(153, 153, 167);
+  font-size: 20px;
+  white-space: nowrap;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.summaryWord {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-size: 12px;
+  margin: 20px 0px 0px 0px;
+  padding: 10px;
+  text-align: center;
+  height: 80px;
+}
+
+.word {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  height: 130px;
+}
+
+img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+img + span {
+  margin-bottom: 20px;
+}
+
+.emoji {
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .header {
+    font-size: 30px;
+  }
+  .section {
+    border: none;
+    padding: 0px;
+  }
+  .container-lg {
+    padding-right: 0px;
+  }
+}
